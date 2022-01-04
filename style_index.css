@@ -1,0 +1,103 @@
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #60a9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+h1{
+    text-align: center;
+}
+
+h1 .greenme{
+    
+    color: green;
+}
+
+h2{
+    text-align: center;
+}
+
+
+.all {
+    background-color: #DEF2FF;
+	border-radius: 10px;
+	padding: 15px 25px;
+	width: 100%;
+	max-width: 1400px;
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+    justify-content: center;
+}
+
+.info{
+display: flex;
+text-align: center;
+width: 30%;
+flex-direction: column;
+
+padding: 25px 50px;
+border-right: 1px solid #117cda;
+}
+.info:last-child{
+    border-right: none;
+}
+
+.names{
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 100%;
+}
+.img{
+    height: 18em; 
+    width: 18em;
+    /* max-height: 18em; */
+}
+
+.img:nth-of-type(1){
+    width: 25em;
+}
+#images{
+    display: flex;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    font-size: 3em;
+}
+#link1{
+    margin-bottom:25px ;
+}
+#link1,#link2{
+    border: 1px solid black;
+    transition: border-color 0.1s,color 0.1s,transform 0.1s;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #AD1E7B;
+    background-color: #7892F0;
+}
+
+
+#link1:hover, #link2:hover{
+    border-color: white;
+    color:white;
+    box-shadow: 0 0.5em 0.5em -0.4em white;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+figcaption{
+    text-align: center;
+}
+

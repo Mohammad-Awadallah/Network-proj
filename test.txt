@@ -1,0 +1,10 @@
+iphonex:1000
+iphone11:1100
+iphone12:1200
+galaxy20:1150
+galaxy21:1250
+sonyz1:500
+minote:300
+huaweip30:900
+nokia:200
+pixel:700

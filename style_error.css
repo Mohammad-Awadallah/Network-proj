@@ -1,0 +1,17 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    color: red;
+}
+
+ul{
+    font-weight: bold;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
